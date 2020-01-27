@@ -1,0 +1,31 @@
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    div {
+        width: 80vw;
+        height: 90%;
+        background: red;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+            cursor: pointer;
+            outline: none;
+            border: none;
+            background: red;
+            border: 1px solid black;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            transition-duration: 0.5s;
+            &:hover {
+                background: black;
+            }
+        }
+    }
+}
